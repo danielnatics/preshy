@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-light bg-primary">
+    <div class="container-fluid">
+      <span class="navbar-brand px-5 h1 fs-2">Peace <span>Arte</span></span>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse mx-5 px-5" id="navbarNavDropdown">
+        <ul class="navbar-nav fw-bold">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Booking</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container"></div>
+  <div class="mt-5 bg-danger">
+    <div class="container position-relative">
+      <div class="position-absolute top-0 start-0">        
+      <h4>Hello, my name is</h4>
+      <h1>Peace <span> Egwuatu</span></h1>
+      <h3>I'am <span class="input text-primary"></span></h3>
+      <div class="news"> 
+        <form>
+             <input type="email" name="email" id="mail" placeholder="Enter your email">
+            <input type="submit" name="submit" value="Lets start">
+        </form>
+   </div>
+      </div>
+    </div>  
+
+  </div> 
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="family">
+         <div class="main">
+            <img src="img1.jpg" alt="my image">
+            <span class="about-text text-center mx-5">
+              <h2>About me</h2>
+              <h5>An Artist</h5>
+              <p>Am a visual artist based on pastel artwork.</p>
+              <button type="button"><a href="mailto:preciousegwuatu2003@gmail.com" style="text-decoration: none; background-color: #f9004d; @media ">Let's talk</a></button>
+          </span>
+          </div>
+
+      </div>
+
+
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> 
+  <script>
+    var typed = new Typed(".input", {
+      strings:["An artist.","Fashion designer.","Web developer.","Photographer."],
+      typeSpeed: 80,
+      backSpeed: 40,
+      loop:true
+     });
+</script>
+</body>
+</html>
